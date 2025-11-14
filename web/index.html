@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLMap Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FLMap Image Viewer</h1>
+        </header>
+        
+        <main>
+            <div class="viewer-container">
+                <div class="image-wrapper">
+                    <img id="displayImage" src="" alt="Processed Frame">
+                </div>
+                
+                <div class="overlay-info">
+                    <div class="info-item">
+                        <span class="label">FPS:</span>
+                        <span id="fpsValue" class="value">0</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Resolution:</span>
+                        <span id="resolutionValue" class="value">0x0</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
+
