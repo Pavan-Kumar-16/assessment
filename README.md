@@ -101,8 +101,5 @@ flmap/
 - OpenGL ES 2.0 shaders use standard texture sampling
 - Web viewer is framework-free (vanilla TypeScript)
 
-## License
-
-This is a minimal structured codebase for educational purposes.
 
 
